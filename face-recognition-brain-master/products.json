@@ -1,0 +1,48 @@
+users{
+    userid{
+        product1{
+            productname:,
+            productbrand:,
+            productprice:,
+            numbers_available:
+        },
+        product2{
+            productname:,
+            productbrand:,
+            productprice:,
+            numbers_available:
+        },
+        product3{
+            productname:,
+            productbrand:,
+            productprice:,
+            numbers_available:
+        }
+    }
+    userid2{
+        product1{
+            productname:,
+            productbrand:,
+            productprice:,
+            numbers_available:
+        },
+        product2{
+            productname:,
+            productbrand:,
+            productprice:,
+            numbers_available:
+        },
+        product3{
+            productname:,
+            productbrand:,
+            productprice:,
+            numbers_available:
+        }
+    }
+}
+
+database.ref('user').child('userid').child('product');
+database.ref('user'+/+userid+/+'product1'+'productname').set(some value);
+database.ref('user'+/+userid+/+'product1'+'productbrand').set(some value);
+database.ref('user'+/+userid+/+'product1'+'productprice').set(some value);
+database.ref('user'+/+userid+/+'product1'+'numbers_available').set(some value);
